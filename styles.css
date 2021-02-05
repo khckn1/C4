@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #414141;
+	background-color: #FFFFFF;
+}
+
+.bg-dark {
+	background-color: #4B5320 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 18px !important;
+  color: #DDE0E3 !important;
+  font-family: 'Play', sans-serif;
+}
+
+.navbar-expand-lg .navbar-brand {
+  color: #DDE0E3;
+  font-family: "Lexend Mega", sans-serif !important;
+}
+
+.header {
+  display: flex;
+  background-color: #DDE0E3;
+  color: #4B5320;
+  justify-content: center;
+  border-bottom: solid 10px #4B5320;
+}
+
+.link-tree {
+  padding-left: 100px;
+}
+
+.page-bottom {
+  display: flex;
+  height: 500px;
+  background-color: #4B5320;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact {
+    flex: 2;
+}
+
+.right-box {
+  flex: initial;
+}
+
+h1 {
+  display: flex;
+  padding: 50px;
+  font-size: 100px;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+h2, h3 {
+  padding-top: 25px;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.page-bottom .direct-contact h3,
+.page-bottom .social-media h3,
+.page-bottom .other-links h3 {
+  color: #DDE0E3;
+}
+
+.page-bottom .direct-contact p,
+.page-bottom .social-media p,
+.page-bottom .other-links p {
+  color: #DDE0E3;
+}
+
+p {
+  font-family: 'Play', sans-serif;
+}
+
+.listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.picture {
+
+}
